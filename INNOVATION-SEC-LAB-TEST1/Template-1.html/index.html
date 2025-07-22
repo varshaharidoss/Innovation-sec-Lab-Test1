@@ -1,75 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
+<header>
+    <nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Nature">cause</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#interaction">interact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#joinus">joinus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#supporter">supporters</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#latest">latest news</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#donation">donation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#form">form</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#getintouch">touch</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
 <body>
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+    <section id="home">
+        <div class="homepage">
+            <h1>Nature Scenario</h1>
+            <p>Nature plays an important Role</p>
+            <button>Donate Picture Now</button>
         </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    </section>
+    <section id="Nature"></section>
+    <h1 style="text-align: center;">Our Nature Picture</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="./water-lilies-1825477_640.jpg" class="card-img-top"
+                    alt="Providing Education for Underprivileged Children">
+                <div class="card-body">
+                    <h3 class="card-title">Waterlilies</h3>
+                    <p class="card-text">Water lilies are aquatic plants with broad floating leaves and vibrant flowers
+                        that beautify and support freshwater ecosystems.
+                    </p>
+                </div>
+            </div>
         </div>
-      </nav>
-      <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="false">Disabled</a>
-              </li>
-            </ul>
-          </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./bird-7967356_640.jpg" class="card-img-top" alt="Providing medical support to poor">
+                <div class="card-body">
+                    <h3 class="card-title">KingFisher</h3>
+                    <p class="card-text">The kingfisher is a brightly colored bird known for its sharp beak, swift
+                        flight, and expert fishing skills near rivers and lakes.
+                    </p>
+                </div>
+            </div>
         </div>
-      </nav>-->
-      <div class="card-group">
-        <div class="card">
-          <img src="./flower.jpg" class="card-img-top" alt="image not available">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./lighthouse-7306839_640.jpg" class="card-img-top" alt="Cleaning Environment">
+                <div class="card-body">
+                    <h3 class="card-title">Light House</h3>
+                    <p class="card-text">A lighthouse is a tall structure with a powerful light that guides ships safely
+                        through coastal waters and warns them of dangerous areas.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img src="./free-nature-images.JPG" class="card-img-top" alt="iamge not available.">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+    </div>
+    <section id="interaction">
+        <h1 style="text-align: center;"> Picture Intetraction in Numbers</h1>
+        <ul class="section-text">
+            <li class="number-item">
+                <p class="number-value">10K</p>
+                <p class="number-descripition"> Projects</p>
+            </li>
+            <li class="number-item">
+                <p class="number-value">5K+</p>
+                <p class="number-descripition">Pictures</p>
+            </li>
+            <li class="number-item">
+                <p class="number-value">5K+</p>
+                <p class="number-descripition">Volunteers</p>
+            </li>
+            <li class="number-item">
+                <p class="number-value">100K</p>
+                <p class="number-descripition">Supporters</p>
+            </li>
+        </ul>
+    </section>
+    <section id="joinus">
+        <h1>Join Us as a Volunteer to Upload Pictures </h1>
+        <p class="text">Be part of something meaningful.Help us make a change !!</p>
+    </section>
+    <section id="supporter">
+        <h1>What Our Supporters Say</h1>
+        <div class="testimonials-containers">
+            <div class="testimonials-box">
+                <p> Amazing initiative Glad to be part of it!</p>
+            </div>
+            <div class="testimonials-box">
+                <p> Their work has truly changed lives!!</p>
+            </div>
         </div>
-        <div class="card">
-          <img src="./waterIMAGE.jpg" class="card-img-top" alt="image not available">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+    </section>
+    <section id="latest">
+        <h1 style="text-align: center;">Latest News</h1>
+        <div class="testimonials-containers">
+            <div class="testimonials-boxs">
+                <p> Amazing initiative Glad to be part of it!</p>
+            </div>
+            <div class="testimonials-boxs">
+                <p> Their work has truly changed lives!!</p>
+            </div>
         </div>
-      </div>
-      
+    </section>
+    <section id="form">
+        <h1 style="text-align: center;">Make a Donation</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Your name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@gmail.com" required>
+            </div>
+            <div class="col-md-6">
+                <label for="amountLeft" class="form-label">Amount</label>
+                <input type="number" class="form-control" id="amountLeft" placeholder="e.g.,1000" required>
+            </div>
+            <div class="col-md-6">
+                <label for="SelectCourseRight" class="form-label">Select Course</label>
+                <select class="form-select" id="SelectCourseRight" required>
+                    <option selected disabled value="">Choose</option>
+                    <option>Course1</option>
+                    <option>Course2</option>
+                    <option>Course3</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <label for="messageLeft" class="form-label">Message(optional)</label>
+                <textarea class="form-control" id="messageLeft" rows="3" placeholder="Your message here"></textarea>
+            </div>
+            <div class="form-button">
+                <button style="background-color: blue;">Donate Now</button>
+            </div>
+
+
+        </form>
+    </section>
+    <section id="getintouch">
+        <footer style="text-align: center;color: white;background-color: black;">
+            <h1>Get in Touch</h1>
+            <h3>Email:supports@helphands.arg..</h3>
+            <h3>Follow us:Facebook|Instagram</h3>
+            &copy; 2025 Great Cause Foundation
+        </footer>
+    </section>
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
