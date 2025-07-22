@@ -1,0 +1,192 @@
+header {
+
+    justify-content: right;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0%;
+}
+
+#home {
+    background-color: lightgray;
+    align-content: center;
+}
+
+#home h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 30px
+}
+
+#home p {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+.homepage {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.homepage button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.homepage button:hover {
+    color: white;
+    background-color: gray;
+    transform: scale(1.05);
+    transition: o.3s ease;
+
+}
+
+.card {
+    width: 500px;
+    height: 100px;
+}
+
+.card-text {
+    font-size: 24px;
+}
+
+#interaction {
+    padding: 100px;
+    background-color: lightgrey;
+}
+
+.section-text {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 20px;
+    list-style-type: none;
+    font: weight 200px;
+    font-size: 80px;
+    padding: 30px;
+    color: rgb(67, 67, 192);
+
+}
+
+.number-descripition {
+    font-size: 20px;
+    color: black;
+}
+
+#joinus {
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+
+.text {
+    padding: 30px;
+    font-size: 30px;
+
+}
+
+#supporter {
+    text-align: center;
+    padding: 100px;
+    background-color: lightgrey;
+}
+
+#supporter {
+    margin-bottom: 30px
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+
+
+}
+
+.testimonials-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px seashell;
+    flex: 1;
+    min-width: 40px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.testimonials-box p {
+    margin: 0;
+}
+
+#lastes {
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.testimonials-containers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+
+}
+
+.testimonials-boxs {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px seashell;
+    flex: 1;
+    min-width: 40px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.testimonials-boxs h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonials-boxs p {
+    text-align: center;
+    margin: 0;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+#getintouch {
+    padding: 30px;
+    margin: auto;
+}
